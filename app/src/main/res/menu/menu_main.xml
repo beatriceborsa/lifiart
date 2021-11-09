@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rapidprogrammer.jsjava.MainActivity">
+
+    <item
+        android:id="@+id/action_favorite"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/italian_settings"
+        android:title="@string/italian_settings"
+        app:showAsAction="never"/>
+    <item android:id="@+id/english_settings"
+        android:title="@string/english_settings"
+        app:showAsAction="never"/>
+</menu>

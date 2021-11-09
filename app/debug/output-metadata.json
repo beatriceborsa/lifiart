@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "tobe.vlc.lifiart",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 14,
+      "versionName": "1.3",
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}
